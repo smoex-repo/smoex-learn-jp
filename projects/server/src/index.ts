@@ -51,5 +51,6 @@ server.on('listening', function() {
       ? 'pipe ' + addr
       : 'port ' + addr?.port;
     debug('Listening on ' + bind);
+    console.log('Listening' + bind)
     }
 );

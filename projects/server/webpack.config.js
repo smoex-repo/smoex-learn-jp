@@ -45,4 +45,12 @@ module.exports = {
   // This is important because it allows us to avoid bundling all of our
   // dependencies, which allows browsers to cache those libraries between builds.
   // externals: [nodeExternals({ modulesFromFile: true })],
+  optimization: {
+    // async 异步(import()语法) initial(同步import xxx from 'xxx') all(所有)
+    // splitChunks: {
+    //   chunks: 'all',
+    //   minSize: 50000,
+    //   minChunks: 1,
+    // }
+  }
 }
