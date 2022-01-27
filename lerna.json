@@ -1,7 +1,8 @@
 {
   "packages": [
     "packages/*",
-    "projects/*"
+    "projects/*",
+    "commons/**/*"
   ],
   "version": "independent",
   "useWorkspaces": true,
